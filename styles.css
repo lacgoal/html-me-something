@@ -1,0 +1,14 @@
+body {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+div {
+  padding: 100px;
+}
+h1 {
+    color: navy;
+    font-family: verdana;
+    font-size: 200%;
+}
