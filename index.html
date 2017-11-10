@@ -2,44 +2,99 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Corney Thoughts</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bell Street Gardens</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
   </head>
   <body>
-    <header>
-      <h1>Run, run, run, as fast as you can...</h1>
-    </header>
-      <img src="https://userscontent2.emaze.com/images/8aac2ef5-371a-4a22-861f-84cba4783c02/f08afd1e2ae9f481a3a069a33f66bd1b.jpg" alt="Gingerbread man runnning">
-    <main>
-      <div class="first">
-        <article class="">
-          <p>I enjoy running.</p>
-          <p>Not so much on the roads or on pavement, but on dirt, on a rocky path... </p>
-          <p>On the trails, I feel like a kid running amok. The sights, smells, sounds...</p>
-          <p>Give me a hill and I'll meet you at the top.</p>
-          <p>A flat stretch and I'll meet you at the end.</p>
-          <p>I may not look like your "typical runner" capable of fast speed.</p>
-          <img src="http://photos-ak.sparkpeople.com/nw/1/0/l104404658.jpg" alt="Rhino running like a unicorn">
-          <p>I'm fortunate to carry extra "fuel" for the long haul, going the distance.</p>
-        </article>
+    <!--Navbar-->
+    <div class="container">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navContainer">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> Bell Street Gardens</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-nav-demo">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#myStory">My Story</a></li>
+              <li><a href="#blog">BLOG</a></li>
+              <li><a href="#gallery">GALLERY</a></li>
+              <li><a href="#goals">GOALS</a></li>
+              <li><a href="#other">OTHER</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="title">
+      <h1>Bell Street Gardens</h1>
+    </div>
+
+
+    <!--Background story, her why, etc -->
+    <div class="jumbotron top">
+      <div id="topQuote">
+        <h3>Garden as though you will live forever.</h3>
+        <h4>— William Kent</h4>
       </div>
-      <div class="second">
-        <h3>She's going for distance...</h3>
-        <p>Each week, the miles add up, and I get one step closer to my goal of running a trail marathon. My goa is to run the marathon around April/May in celebration of my craziness and of my birthday. </p>
-        <p>The Kansas City area has an awesome group, called the Trail Nerdz, who have a long list of events planned for throughout the year. The distances range from the "beginner" 5&nbspk to the "veteran" 100&nbspmiler. My upcomign races include a 4-miler, a 10k, and then a 10-miler at the beginning of Dec.</p>
+      <p><a class="btn btn-primary btn-lg myStoryButton" name= "myStory" href="#" role="button">My Story</a></p>
+    </div>
+
+    <!--Links to Other parts of website -->
+    <div class="container">
+      <div id="sepSections">
+          <div class="section col-lg-3 col-md-6 col-sm-12">
+              <img src="https://source.unsplash.com/2OU30mdtseY" class="img-responsive img-thumbnail" alt="Responsive image" />
+              <div class="sectionInfo">
+                <h5><a href= "blog.html" name="blog">BLOG</a></h5>
+                  <p>But don't ever mistake that for nice. River, you know my name. You whispered my name in my ear! There's only one reason I would ever tell anyone my name. There's only one time I could... I don't want to go.</p>
+              </div>
+          </div>
+          <div class="section col-lg-3 col-md-6 col-sm-12">
+              <img src="https://source.unsplash.com/Ee8-KNnjcj0" class="img-responsive img-thumbnail" alt="Responsive image" />
+              <div class="sectionInfo">
+                <h5><a name="gallery">GALLERY</a></h5>
+                <p>Oh, yes. Harmless is just the word: that's why I like it! Doesn't kill, doesn't wound, doesn't maim. But I'll tell you what it does do: it is very good at opening doors! I don't want to go. Black tie...Whenever I wear this, something bad always happens. </p>
+              </div>
+          </div>
+          <div class="section col-lg-3 col-md-6 col-sm-12">
+              <img src="https://source.unsplash.com/DIrUrL856mQ" class="img-responsive img-thumbnail" alt="Responsive image" />
+              <div class="sectionInfo">
+                <h5><a name="goals">GOALS</a></h5>
+                <p>There was a war. A Time War. The Last Great Time War. My people fought a race called the Daleks, for the sake of all creation. And they lost. We lost. Everyone lost. They're all gone now. My family. My friends. Even that sky.</p>
+              </div>
+          </div>
+          <div class="section col-lg-3 col-md-6 col-sm-12">
+              <img src="https://source.unsplash.com/fAFgqxDJ2t8" class="img-responsive img-thumbnail" alt="Responsive image" />
+              <div class="sectionInfo">
+                <h5><a name="other">OTHER</a></h5>
+                <p>Sweet, maybe... Passionate, I suppose... People assume that time is a strict progression of cause-and-effect... but actually, from a non-linear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly... timey-wimey... stuff. It is!</p>
+              </div>
+          </div>
       </div>
-      <div class="third">
-        <p>My plans don't end at running the marathon. Oh no, I'm crazy enough to think about running a 50k, then a 50&nbspmiler, then a 100&nbspk, then 100&nbspmiles... It's hard to explain why, but how I feel after each trip out on to the trails... That let's me know I'm doing something good and I have no plans of stopping. Maybe a good amount of walking, but not stopping.</p>
-      </div>
-
-    </main>
+    </div>
 
 
 
-  <footer>
-  </footer>
+    <div id="fixedfooter">Bottom div content</div>
 
 
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+    <!--Bootstrap Javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="rdq.js"> </script>
   </body>
-
 </html>
